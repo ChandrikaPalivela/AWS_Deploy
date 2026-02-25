@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class CseController {
 
     @GetMapping("/home")
-    public String disk() {
+    public String home() {
         return "Task Completed By 23MH1A05J9";
     }
 
     @GetMapping("/cse")
-    public String disk2() {
-        return "Welcome to aditya";
+    public String welcome() {
+        return "Welcome to Aditya";
     }
 }
